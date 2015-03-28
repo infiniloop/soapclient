@@ -1,5 +1,5 @@
 {
-    "name": "mariuszen/yii2-codezen-soapclient",
+    "name": "codezen/yii2-soapclient",
     "description": "Yii2 SOAP client extension",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","soap","client"],

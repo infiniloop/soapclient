@@ -25,7 +25,32 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+You need to setup soap client application component:
 
 ```php
-<?= \codezen\soapclient\AutoloadExample::widget(); ?>```
+'components' => [
+    'siteApi' => [
+        'class' => 'zencode\soapclient\Client',
+        'url' => 'http://myservice.com/api/hello',
+        'options' => [
+            'cache_wsdl' => WSDL_CACHE_NONE,
+        ],
+    ]
+    ...
+]
+```
+
+or define the client directly in the code:
+
+```php
+$client = new \zencode\soapclient\Client([
+    'url' => 'http://myservice.com/api/hello',
+]);
+```
+
+Example of calling the SOAP function:
+
+```php
+$client = Yii::$app->siteApi;
+echo $client->getHello('ParameterValue');
+```

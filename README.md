@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist mariuszen/yii2-codezen-soapclient "*"
+php composer.phar require --prefer-dist codezen/yii2-soapclient "*"
 ```
 
 or add
 
 ```
-"mariuszen/yii2-codezen-soapclient": "*"
+"codezen/yii2-soapclient": "*"
 ```
 
 to the require section of your `composer.json` file.

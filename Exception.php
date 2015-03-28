@@ -5,7 +5,7 @@ namespace codezen\soapclient;
 /**
  * Class Exception
  *
- * @author marius Brinzea <devbyzen@gmail.com>
+ * @author Marius Brinzea <devbyzen@gmail.com>
  */
 class Exception extends \yii\base\Exception
 {

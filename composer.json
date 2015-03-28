@@ -2,8 +2,8 @@
     "name": "mariuszen/yii2-codezen-soapclient",
     "description": "Yii2 SOAP client extension",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","soap"],
-    "license": "LGPL-3.0",
+    "keywords": ["yii2","extension","soap","client"],
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Marius Brinzea",
@@ -11,6 +11,8 @@
         }
     ],
     "require": {
+        "php": ">=5.4.0",
+        "ext-soap": "*",
         "yiisoft/yii2": "*"
     },
     "autoload": {

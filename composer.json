@@ -1,0 +1,21 @@
+{
+    "name": "mariuszen/yii2-codezen-soapclient",
+    "description": "A helper to generate SOAP calls to various API web services",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","soap"],
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Marius Brinzea",
+            "email": "marius.zen@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "codezen\\soapclient\\": ""
+        }
+    }
+}
